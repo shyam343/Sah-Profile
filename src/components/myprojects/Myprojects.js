@@ -23,8 +23,8 @@ const Myprojects = () => {
             <h3>My Portfolio(This website)</h3>
             <small className='text-light'>ReactJs</small>
             <div className="portfolio__item-cta">
-              <a href="https://github.com/Thakshila-Bandara/my-portfolio" target="_blank" rel='noreferrer' className='btn'>Github</a>
-              <a href="https://thakshila-bandara.github.io/my-portfolio/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
+              <a href="https://github.com/shyam343/my-portfolio" target="_blank" rel='noreferrer' className='btn'>Github</a>
+              <a href="https://shyamsah.netlify.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
             </div>
             
             </article>
@@ -36,7 +36,9 @@ const Myprojects = () => {
             <h3>AGE-CALCULATOR</h3>
             <small className='text-light'>HTML | CSS | JS </small>
             <div className="portfolio__item-cta">
-              <a href="https://github.com/shyam343/Age-Calculator" target="_blank" rel='noreferrer' className='btn'>Github</a>  
+              <a href="https://github.com/shyam343/Age-Calculator" target="_blank" rel='noreferrer' className='btn'>Github</a> 
+              <a href="https://sahage-calculator.netlify.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>
+               
             </div>
             
         </article>
@@ -49,6 +51,7 @@ const Myprojects = () => {
             <small className='text-light'>HTML | CSS | Bootstrap</small>
             <div className="portfolio__item-cta">
               <a href="https://github.com/shyam343/Bootstrap" target="_blank" rel='noreferrer' className='btn'>Github</a>
+              <a href="https://sahbootstrap.netlify.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>
             </div>
             
         </article>
@@ -61,6 +64,7 @@ const Myprojects = () => {
             <small className='text-light'>HTML | CSS | JS </small>
             <div className="portfolio__item-cta">
               <a href="https://github.com/shyam343/DrumKit-Project" target="_blank" rel='noreferrer' className='btn'>Github</a>
+              <a href="https://sahdrumkit-project.netlify.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>
             </div>
               
         </article>
@@ -73,6 +77,7 @@ const Myprojects = () => {
             <small className='text-light'>Machine Learning | Python </small>
             <div className="portfolio__item-cta">
               <a href="https://github.com/shyam343/REAL-TIME-AGE-GENDER-PREDICTION-AND-CLASSIFICATION-USING-MACHINE-LEARNING" target="_blank" rel='noreferrer' className='btn'>Github</a>
+              <a href="https://www.kaggle.com/code/sahkumarshyam/gender-and-age-prediction-using-machine-learning" target="_blank" rel='noreferrer' className='btn btn-primary'>Project Live</a>
             </div>
               
         </article>
@@ -84,6 +89,7 @@ const Myprojects = () => {
             <small className='text-light'>Machine Learning | Python | Jupyter Notebook </small>
             <div className="portfolio__item-cta">
               <a href="https://github.com/shyam343/REAL-TIME-AGE-GENDER-PREDICTION-AND-CLASSIFICATION-USING-MACHINE-LEARNING" target="_blank" rel='noreferrer' className='btn'>Github</a>
+              <a href="https://www.kaggle.com/code/sahkumarshyam/speech-emotion-recognition-using-mlp-classifier-in/edit" target="_blank" rel='noreferrer' className='btn btn-primary'>Project Live</a>
             </div>
           </article>
       </div>
