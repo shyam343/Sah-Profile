@@ -32,7 +32,7 @@ const About = () => {
               <article className='about__card'>
                   <BsBookmarkStar className='about__icon'/>
                   <h5>Current CGPA</h5>
-                  <small>8.38</small>
+                  <small>8.38 Out Of 10 </small>
               </article>
 
               <article className='about__card'>

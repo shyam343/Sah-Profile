@@ -3,7 +3,7 @@ import './myprojects.css'
 import IMG1 from '../../assets/profile.png'
 import IMG2 from '../../assets/age-cal-pro.png'
 import IMG3 from '../../assets/tin-dog-pro.png'
-import IMG4 from '../../assets/drum-kit-pro.png'
+import IMG4 from '../../assets/pg1.png'
 import IMG5 from '../../assets/age-gender.jpg'
 import IMG6 from '../../assets/speech-img.png'
 
@@ -18,12 +18,24 @@ const Myprojects = () => {
 
       <article className='portfolio__item'>
             <div className="portfolio__item-image">
+                <img src={IMG4} alt="" />
+            </div>
+            <h3>SahNecSite.</h3>
+            <small className='text-light'>HTML | CSS | JS | ReactJs </small>
+            <div className="portfolio__item-cta">
+              <a href="https://sahnecsite.netlify.app" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>
+            </div>
+              
+        </article>
+
+      <article className='portfolio__item'>
+            <div className="portfolio__item-image">
                 <img src={IMG1} alt="" />
             </div>
             <h3>My Portfolio(This website)</h3>
-            <small className='text-light'>ReactJs</small>
+            <small className='text-light'> HTML | CSS | JS | ReactJs</small>
             <div className="portfolio__item-cta">
-              <a href="https://github.com/shyam343/my-portfolio" target="_blank" rel='noreferrer' className='btn'>Github</a>
+              
               <a href="https://shyamsah.netlify.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
             </div>
             
@@ -34,10 +46,9 @@ const Myprojects = () => {
                 <img src={IMG2} alt="" />
             </div>
             <h3>AGE-CALCULATOR</h3>
-            <small className='text-light'>HTML | CSS | JS </small>
+            <small className='text-light'> HTML | CSS | JS </small>
             <div className="portfolio__item-cta">
-              <a href="https://github.com/shyam343/Age-Calculator" target="_blank" rel='noreferrer' className='btn'>Github</a> 
-              <a href="https://sahage-calculator.netlify.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>
+            <a href="https://sahage-calculator.netlify.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>
                
             </div>
             
@@ -50,23 +61,9 @@ const Myprojects = () => {
             <h3>Tin Dog Project Using Bootstrap.</h3>
             <small className='text-light'>HTML | CSS | Bootstrap</small>
             <div className="portfolio__item-cta">
-              <a href="https://github.com/shyam343/Bootstrap" target="_blank" rel='noreferrer' className='btn'>Github</a>
               <a href="https://sahbootstrap.netlify.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>
             </div>
             
-        </article>
-
-        <article className='portfolio__item'>
-            <div className="portfolio__item-image">
-                <img src={IMG4} alt="" />
-            </div>
-            <h3>DrumKit-Project.</h3>
-            <small className='text-light'>HTML | CSS | JS </small>
-            <div className="portfolio__item-cta">
-              <a href="https://github.com/shyam343/DrumKit-Project" target="_blank" rel='noreferrer' className='btn'>Github</a>
-              <a href="https://sahdrumkit-project.netlify.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>
-            </div>
-              
         </article>
 
         <article className='portfolio__item'>
