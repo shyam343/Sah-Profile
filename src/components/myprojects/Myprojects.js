@@ -1,7 +1,7 @@
 import React from 'react'
 import './myprojects.css'
 import IMG1 from '../../assets/profile.png'
-import IMG2 from '../../assets/age-cal-pro.png'
+import IMG2 from '../../assets/sahpharm.png'
 import IMG3 from '../../assets/tin-dog-pro.png'
 import IMG4 from '../../assets/pg1.png'
 import IMG5 from '../../assets/age-gender.jpg'
@@ -41,14 +41,14 @@ const Myprojects = () => {
             
             </article>
 
-      <article className='portfolio__item'>
+        <article className='portfolio__item'>
             <div className="portfolio__item-image">
                 <img src={IMG2} alt="" />
             </div>
-            <h3>AGE-CALCULATOR</h3>
-            <small className='text-light'> HTML | CSS | JS </small>
+            <h3>SahPharmacy Online Medicine Shopping Platform.</h3>
+            <small className='text-light'> HTML | CSS | JS | ReactJs </small>
             <div className="portfolio__item-cta">
-            <a href="https://sahage-calculator.netlify.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>
+            <a href="https://sahpharmacy.netlify.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>
                
             </div>
             
