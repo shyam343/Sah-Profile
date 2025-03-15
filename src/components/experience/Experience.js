@@ -4,12 +4,31 @@ import {BsFillPatchCheckFill} from 'react-icons/bs'
 
 const Experience = () => {
   return (
-    <section id='experience'>
-
-      <h5>The skills I have</h5>
+    <section id='experience'>   
       <h2>My Experience</h2>
+      <div className="container experience__container">  
+      <div className="bg-black text-white p-6 rounded-lg max-w-md mx-auto shadow-lg">
+      <h3 className="text-yellow-500 text-xl font-bold mb-4">2024(AUG)-Present</h3>
+      <h2 className="text-2xl font-semibold">
+  CAS TOTAL SOLUTION <span className="text-base font-normal">(as <i>Software Developer</i>)</span>
+</h2>     
+          <small>JavaScript and JSP Development,Oracle Database Management,Finacle Customization,API Integration</small>
 
-      <div className="container experience__container">
+  <div class="mb-4">
+    <h2 class="text-2xl font-semibold">NBA Loan Write-Off Project</h2>
+    <small>Developed the frontend with various menus and handled backend processes to ensure seamless functionality.</small>
+  </div>
+
+  <div class="mb-4">
+    <h2 class="text-2xl font-semibold">EBL Version Upgrade Project</h2>
+    <small>Contributed to the version upgrade process, enhancing system performance and ensuring a smooth transition.</small>
+  </div>
+
+
+    </div>
+
+
+
 
         <div className="experience__frontend">
             <h3>Frontend Development</h3>
